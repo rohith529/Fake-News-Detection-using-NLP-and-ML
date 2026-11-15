@@ -1,0 +1,88 @@
+{
+  "dataset": "ifnd",
+  "rows": 39965,
+  "live_rows": 175,
+  "test_rows": 7993,
+  "best": "Linear SVM",
+  "sklearn": "1.9.1",
+  "trained_at": "2026-11-15 10:10",
+  "demo_only": false,
+  "results": [
+    {
+      "model": "Logistic Regression",
+      "accuracy": 0.9491,
+      "precision": 0.9407,
+      "recall": 0.9827,
+      "f1": 0.9612,
+      "confusion": [
+        [
+          2541,
+          318
+        ],
+        [
+          89,
+          5045
+        ]
+      ],
+      "val_f1": 0.963,
+      "train_seconds": 0.2
+    },
+    {
+      "model": "Linear SVM",
+      "accuracy": 0.9538,
+      "precision": 0.9498,
+      "recall": 0.9799,
+      "f1": 0.9646,
+      "confusion": [
+        [
+          2593,
+          266
+        ],
+        [
+          103,
+          5031
+        ]
+      ],
+      "val_f1": 0.9667,
+      "train_seconds": 0.42
+    },
+    {
+      "model": "SGD (Hinge)",
+      "accuracy": 0.9523,
+      "precision": 0.946,
+      "recall": 0.9819,
+      "f1": 0.9636,
+      "confusion": [
+        [
+          2571,
+          288
+        ],
+        [
+          93,
+          5041
+        ]
+      ],
+      "val_f1": 0.9638,
+      "train_seconds": 0.17
+    },
+    {
+      "model": "Random Forest",
+      "accuracy": 0.9501,
+      "precision": 0.9497,
+      "recall": 0.9739,
+      "f1": 0.9616,
+      "confusion": [
+        [
+          2594,
+          265
+        ],
+        [
+          134,
+          5000
+        ]
+      ],
+      "val_f1": 0.9614,
+      "train_seconds": 94.48
+    }
+  ]
+}

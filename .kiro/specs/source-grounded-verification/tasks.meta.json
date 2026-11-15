@@ -1,0 +1,227 @@
+{
+  "pbtResults": {},
+  "executionHistory": {
+    "1.1 Implement `_cache_key()`, `fetch()`, and trusted-domain filtering": [
+      {
+        "executionId": "66bb8248-7067-43e2-8e8f-15997a7bb998",
+        "chatSessionId": "sess_9fd21fda-6d11-40ea-990d-7c4e75f540d2",
+        "timestamp": 1794661850723
+      },
+      {
+        "executionId": "66bb8248-7067-43e2-8e8f-15997a7bb998",
+        "chatSessionId": "sess_9fd21fda-6d11-40ea-990d-7c4e75f540d2",
+        "timestamp": 1794661864406
+      },
+      {
+        "executionId": "66bb8248-7067-43e2-8e8f-15997a7bb998",
+        "chatSessionId": "sess_9fd21fda-6d11-40ea-990d-7c4e75f540d2",
+        "timestamp": 1794661994061
+      }
+    ],
+    "2.1 Implement `compute_scores()` in Lightweight mode": [
+      {
+        "executionId": "66bb8248-7067-43e2-8e8f-15997a7bb998",
+        "chatSessionId": "sess_9fd21fda-6d11-40ea-990d-7c4e75f540d2",
+        "timestamp": 1794661850902
+      },
+      {
+        "executionId": "66bb8248-7067-43e2-8e8f-15997a7bb998",
+        "chatSessionId": "sess_9fd21fda-6d11-40ea-990d-7c4e75f540d2",
+        "timestamp": 1794662015479
+      },
+      {
+        "executionId": "66bb8248-7067-43e2-8e8f-15997a7bb998",
+        "chatSessionId": "sess_9fd21fda-6d11-40ea-990d-7c4e75f540d2",
+        "timestamp": 1794662457263
+      }
+    ],
+    "2.2 Implement `compute_source_signal()` and Semantic mode fallback": [
+      {
+        "executionId": "66bb8248-7067-43e2-8e8f-15997a7bb998",
+        "chatSessionId": "sess_9fd21fda-6d11-40ea-990d-7c4e75f540d2",
+        "timestamp": 1794661850979
+      },
+      {
+        "executionId": "66bb8248-7067-43e2-8e8f-15997a7bb998",
+        "chatSessionId": "sess_9fd21fda-6d11-40ea-990d-7c4e75f540d2",
+        "timestamp": 1794662466735
+      },
+      {
+        "executionId": "66bb8248-7067-43e2-8e8f-15997a7bb998",
+        "chatSessionId": "sess_9fd21fda-6d11-40ea-990d-7c4e75f540d2",
+        "timestamp": 1794662627865
+      }
+    ],
+    "3. Checkpoint — Verify retriever and similarity modules in isolation": [
+      {
+        "executionId": "66bb8248-7067-43e2-8e8f-15997a7bb998",
+        "chatSessionId": "sess_9fd21fda-6d11-40ea-990d-7c4e75f540d2",
+        "timestamp": 1794661851056
+      },
+      {
+        "executionId": "66bb8248-7067-43e2-8e8f-15997a7bb998",
+        "chatSessionId": "sess_9fd21fda-6d11-40ea-990d-7c4e75f540d2",
+        "timestamp": 1794663648039
+      },
+      {
+        "executionId": "66bb8248-7067-43e2-8e8f-15997a7bb998",
+        "chatSessionId": "sess_9fd21fda-6d11-40ea-990d-7c4e75f540d2",
+        "timestamp": 1794663681009
+      }
+    ],
+    "4.1 Add imports and wire retriever + similarity into `/api/analyze`": [
+      {
+        "executionId": "66bb8248-7067-43e2-8e8f-15997a7bb998",
+        "chatSessionId": "sess_9fd21fda-6d11-40ea-990d-7c4e75f540d2",
+        "timestamp": 1794661851151
+      },
+      {
+        "executionId": "66bb8248-7067-43e2-8e8f-15997a7bb998",
+        "chatSessionId": "sess_9fd21fda-6d11-40ea-990d-7c4e75f540d2",
+        "timestamp": 1794662647878
+      },
+      {
+        "executionId": "66bb8248-7067-43e2-8e8f-15997a7bb998",
+        "chatSessionId": "sess_9fd21fda-6d11-40ea-990d-7c4e75f540d2",
+        "timestamp": 1794662728332
+      }
+    ],
+    "4.2 Replace the fusion block with the new weighted formula": [
+      {
+        "executionId": "66bb8248-7067-43e2-8e8f-15997a7bb998",
+        "chatSessionId": "sess_9fd21fda-6d11-40ea-990d-7c4e75f540d2",
+        "timestamp": 1794661851194
+      },
+      {
+        "executionId": "66bb8248-7067-43e2-8e8f-15997a7bb998",
+        "chatSessionId": "sess_9fd21fda-6d11-40ea-990d-7c4e75f540d2",
+        "timestamp": 1794662732612
+      },
+      {
+        "executionId": "66bb8248-7067-43e2-8e8f-15997a7bb998",
+        "chatSessionId": "sess_9fd21fda-6d11-40ea-990d-7c4e75f540d2",
+        "timestamp": 1794662809735
+      }
+    ],
+    "4.3 Extend the `jsonify(...)` response with new fields": [
+      {
+        "executionId": "66bb8248-7067-43e2-8e8f-15997a7bb998",
+        "chatSessionId": "sess_9fd21fda-6d11-40ea-990d-7c4e75f540d2",
+        "timestamp": 1794661851238
+      },
+      {
+        "executionId": "66bb8248-7067-43e2-8e8f-15997a7bb998",
+        "chatSessionId": "sess_9fd21fda-6d11-40ea-990d-7c4e75f540d2",
+        "timestamp": 1794662814221
+      },
+      {
+        "executionId": "66bb8248-7067-43e2-8e8f-15997a7bb998",
+        "chatSessionId": "sess_9fd21fda-6d11-40ea-990d-7c4e75f540d2",
+        "timestamp": 1794662878040
+      }
+    ],
+    "5.1 Implement `renderEvidencePanel(d)` and insert into `render(d)`": [
+      {
+        "executionId": "66bb8248-7067-43e2-8e8f-15997a7bb998",
+        "chatSessionId": "sess_9fd21fda-6d11-40ea-990d-7c4e75f540d2",
+        "timestamp": 1794661851285
+      },
+      {
+        "executionId": "66bb8248-7067-43e2-8e8f-15997a7bb998",
+        "chatSessionId": "sess_9fd21fda-6d11-40ea-990d-7c4e75f540d2",
+        "timestamp": 1794662886388
+      },
+      {
+        "executionId": "66bb8248-7067-43e2-8e8f-15997a7bb998",
+        "chatSessionId": "sess_9fd21fda-6d11-40ea-990d-7c4e75f540d2",
+        "timestamp": 1794663355333
+      }
+    ],
+    "6. Checkpoint — End-to-end verification of modified `app.py` and `app.js`": [
+      {
+        "executionId": "66bb8248-7067-43e2-8e8f-15997a7bb998",
+        "chatSessionId": "sess_9fd21fda-6d11-40ea-990d-7c4e75f540d2",
+        "timestamp": 1794661851337
+      },
+      {
+        "executionId": "66bb8248-7067-43e2-8e8f-15997a7bb998",
+        "chatSessionId": "sess_9fd21fda-6d11-40ea-990d-7c4e75f540d2",
+        "timestamp": 1794663685154
+      },
+      {
+        "executionId": "66bb8248-7067-43e2-8e8f-15997a7bb998",
+        "chatSessionId": "sess_9fd21fda-6d11-40ea-990d-7c4e75f540d2",
+        "timestamp": 1794665004679
+      }
+    ],
+    "7.1 Implement the evaluation script with `--sample` and three-config reporting": [
+      {
+        "executionId": "66bb8248-7067-43e2-8e8f-15997a7bb998",
+        "chatSessionId": "sess_9fd21fda-6d11-40ea-990d-7c4e75f540d2",
+        "timestamp": 1794661851404
+      },
+      {
+        "executionId": "66bb8248-7067-43e2-8e8f-15997a7bb998",
+        "chatSessionId": "sess_9fd21fda-6d11-40ea-990d-7c4e75f540d2",
+        "timestamp": 1794663365291
+      },
+      {
+        "executionId": "66bb8248-7067-43e2-8e8f-15997a7bb998",
+        "chatSessionId": "sess_9fd21fda-6d11-40ea-990d-7c4e75f540d2",
+        "timestamp": 1794663643820
+      }
+    ],
+    "8. Final checkpoint — Full test suite and latency smoke test": [
+      {
+        "executionId": "66bb8248-7067-43e2-8e8f-15997a7bb998",
+        "chatSessionId": "sess_9fd21fda-6d11-40ea-990d-7c4e75f540d2",
+        "timestamp": 1794661851449
+      },
+      {
+        "executionId": "66bb8248-7067-43e2-8e8f-15997a7bb998",
+        "chatSessionId": "sess_9fd21fda-6d11-40ea-990d-7c4e75f540d2",
+        "timestamp": 1794665015799
+      },
+      {
+        "executionId": "66bb8248-7067-43e2-8e8f-15997a7bb998",
+        "chatSessionId": "sess_9fd21fda-6d11-40ea-990d-7c4e75f540d2",
+        "timestamp": 1794665090009
+      }
+    ],
+    "1. Create `backend/retriever.py` — Retriever with LRU cache": [
+      {
+        "executionId": "66bb8248-7067-43e2-8e8f-15997a7bb998",
+        "chatSessionId": "sess_9fd21fda-6d11-40ea-990d-7c4e75f540d2",
+        "timestamp": 1794661994112
+      }
+    ],
+    "2. Create `backend/similarity.py` — Similarity Engine": [
+      {
+        "executionId": "66bb8248-7067-43e2-8e8f-15997a7bb998",
+        "chatSessionId": "sess_9fd21fda-6d11-40ea-990d-7c4e75f540d2",
+        "timestamp": 1794662627924
+      }
+    ],
+    "4. Modify `backend/app.py` — integrate retriever and similarity, update fusion, extend response": [
+      {
+        "executionId": "66bb8248-7067-43e2-8e8f-15997a7bb998",
+        "chatSessionId": "sess_9fd21fda-6d11-40ea-990d-7c4e75f540d2",
+        "timestamp": 1794662878172
+      }
+    ],
+    "5. Modify `frontend/app.js` — add Evidence Panel": [
+      {
+        "executionId": "66bb8248-7067-43e2-8e8f-15997a7bb998",
+        "chatSessionId": "sess_9fd21fda-6d11-40ea-990d-7c4e75f540d2",
+        "timestamp": 1794663355409
+      }
+    ],
+    "7. Create `backend/evaluate_grounded.py` — offline evaluation CLI": [
+      {
+        "executionId": "66bb8248-7067-43e2-8e8f-15997a7bb998",
+        "chatSessionId": "sess_9fd21fda-6d11-40ea-990d-7c4e75f540d2",
+        "timestamp": 1794663643919
+      }
+    ]
+  }
+}

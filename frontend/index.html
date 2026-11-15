@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Veritas Desk - Fake News Detector</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700&family=Source+Serif+4:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>Veritas Desk</h1>
+  <p>Paste a headline or article. We score how credible it looks and show which words drove the score.</p>
+</header>
+<main>
+  <form id="form">
+    <label for="text">Headline or article text</label>
+    <textarea id="text" rows="7" required placeholder="e.g. Scientists confirm hot water cures all cancers, doctors hate this!"></textarea>
+    <label for="url">Source link <span class="opt">(optional, improves the score)</span></label>
+    <input id="url" type="text" placeholder="https://www.thehindu.com/...">
+    <div class="row">
+      <button id="go" type="submit">Check credibility</button>
+      <button type="button" class="ghost" id="ex1">Try a fake example</button>
+      <button type="button" class="ghost" id="ex2">Try a real example</button>
+    </div>
+  </form>
+
+  <section id="result" aria-live="polite" hidden></section>
+
+  <section class="panel">
+    <h2>Recent checks</h2>
+    <ul id="history" class="plain"><li class="muted">Nothing checked yet. Submit a headline above.</li></ul>
+  </section>
+  <section class="panel">
+    <h2>Model comparison</h2>
+    <p class="muted" id="meta"></p>
+    <div class="scroll"><table id="stats"></table></div>
+    <p class="muted" id="learn"></p>
+    <button type="button" class="ghost" id="retrain">Fetch trusted headlines and retrain now</button>
+  </section>
+</main>
+<script src="app.js"></script>
+</body>
+</html>
