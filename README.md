@@ -66,3 +66,4 @@ models/    model.joblib + metrics.json (created by train.py)
 * Limitations: the model learns writing style, not facts. It cannot verify claims on its own.
 
 "# fake-detection" 
+"# fake-detection" 
