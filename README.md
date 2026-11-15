@@ -65,3 +65,4 @@ models/    model.joblib + metrics.json (created by train.py)
 * Cross-domain test: train on ISOT, test on Indian headlines to show domain imbalance
 * Limitations: the model learns writing style, not facts. It cannot verify claims on its own.
 
+"# fake-detection" 
